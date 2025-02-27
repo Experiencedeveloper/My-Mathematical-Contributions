@@ -66,17 +66,32 @@ Thus, both sides are equal.
 $$\pi = 4 \int_{0}^{1} \sqrt{1-x^2} \, dx$$
 
 ### Abstract
-This geometric formula for π is based on integrating the function \( \sqrt{1-x^2} \) from 0 to 1, representing a quarter-circle of radius 1. By integrating over this interval and multiplying by 4, we obtain the area of the entire unit circle, which is π.
+This geometric formula for π is based on integrating the function $$\( \sqrt{1-x^2} \)$$ from 0 to 1, representing a quarter-circle of radius 1. By integrating over this interval and multiplying by 4, we obtain the area of the entire unit circle, which is π.
 
 ### Detailed Explanation
-This formula provides a geometric approach to calculating π by relating it to the area of a circle. The integrand \( \sqrt{1-x^2} \) represents the equation of a quarter-circle, and integrating it over the interval from 0 to 1 yields the area of that quarter-circle. Multiplying by 4 gives us the area of the full circle, which is π.
+This formula provides a geometric approach to calculating π by relating it to the area of a circle. The integrand $$\( \sqrt{1-x^2} \)$$ represents the equation of a quarter-circle, and integrating it over the interval from 0 to 1 yields the area of that quarter-circle. Multiplying by 4 gives us the area of the full circle, which is π.
 
 ### Proof
-The area of a circle of radius \(r\) is given by \( \pi r^2 \). For a unit circle (\(r = 1\)), the area is π. The function \( \sqrt{1-x^2} \) represents the upper half of the unit circle. Integrating this function from 0 to 1 gives us the area of a quarter of the circle:
-$$ \int_{0}^{1} \sqrt{1-x^2} \, dx $$
+The area of a circle of radius \(r\) is given by $$\pi r^2$$. For a unit circle $$\(r = 1\)$$, the area is π. The function $$\( \sqrt{1-x^2} \)$$ represents the upper half of the unit circle. Integrating this function from 0 to 1 gives us the area of a quarter of the circle:
+$$\int_{0}^{1} \sqrt{1-x^2} \, dx$$
 Multiplying by 4 gives the total area, which is π.
 
 ### Potential Applications
 - **Calculus and Analysis**: Illustrates the connection between integrals and geometry.
 - **Computational Mathematics**: Basis for numerical algorithms to approximate the value of π.
 - **Geometry and Trigonometry**: Provides a geometric perspective on the value of π, aiding in teaching and understanding these subjects.
+
+## 5. Tetron
+$$\lambda = 3\sqrt{2} + 4$$
+
+### Abstract
+Tetron is a unique mathematical constant that represents the ratio of the sum of all distances between the points in a tetrahedron to the length of the diagonal. This constant provides insight into the geometric properties of tetrahedrons.
+
+### Detailed Explanation
+Tetron is defined for a regular tetrahedron with edge length \(a\). The diagonal length \(d\) is given by $$a\sqrt{2}$$, and the sum of all distances \(S\) is given by $$a(6 + 4\sqrt{2})$$. Tetron $$\(\lambda\)$$ is the ratio of S to d:
+$$\[ \lambda = \frac{S}{d} = \frac{a(6 + 4\sqrt{2})}{a\sqrt{2}} = 3\sqrt{2} + 4 \]$$
+
+### Potential Applications
+- **Geometric Studies**: Useful in advanced geometric studies involving tetrahedrons.
+- **Optimization Problems**: Assists in solving problems related to distances in polyhedrons.
+- **Theoretical Physics**: Provides a unique ratio that can be used in theoretical physics involving tetrahedral structures.
