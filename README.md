@@ -95,3 +95,51 @@ $$\[ \lambda = \frac{S}{d} = \frac{a(6 + 4\sqrt{2})}{a\sqrt{2}} = 3\sqrt{2} + 4 
 - **Geometric Studies**: Useful in advanced geometric studies involving tetrahedrons.
 - **Optimization Problems**: Assists in solving problems related to distances in polyhedrons.
 - **Theoretical Physics**: Provides a unique ratio that can be used in theoretical physics involving tetrahedral structures.
+
+## 6. Supernatural Numbers
+### Definition
+Supernatural numbers are defined as positive integers $$n$$ such that the product of all their proper divisors equals $$n^2$$.
+
+### Python Implementation 
+```python
+def proper_divisors(n):
+    # Function to find all proper divisors of a number
+    divisors = [1]
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            divisors.append(i)
+            if i != n // i:
+                divisors.append(n // i)
+    return divisors
+
+def is_supernatural(n):
+    # Function to check if a number is a supernatural number 
+    divisors = proper_divisors(n)
+    product = 1
+    for d in divisors:
+        product *= d
+    return product == n ** 2
+
+def generate_supernatural_numbers(limit):
+    # Function to generate supernatural numbers up to a given limit
+    supernatural_numbers = []
+    for n in range(2, limit + 1):
+        if is_supernatural(n):
+            supernatural_numbers.append(n)
+    return supernatural_numbers
+
+# Example usage
+limit = 1000
+supernatural_numbers = generate_supernatural_numbers(limit)
+print(f"Supernatural numbers up to {limit}: {supernatural_numbers}")
+```
+
+### Properties
+- **Divisor Product Condition**: The defining property of supernatural numbers is that the product of their proper divisors equals the square of the number itself.
+- **Rare Occurrence**: Supernatural numbers are relatively rare compared to other number types, making them unique and intriguing for mathematical exploration.
+- **Unique Structure**: Supernatural numbers have a distinctive divisor structure that results in the specific relationship between their divisors and their squares.
+
+### Potential Applications
+- **Mathematical Research**: Supernatural numbers open new areas for number theory research, providing insights into the properties and distributions of integers.
+- **Cryptography**: The unique structure and rarity of supernatural numbers may have potential applications in cryptographic algorithms and key generation.
+- **Educational Tools**: These numbers can be used in mathematical puzzles and educational games to encourage logical thinking and problem-solving skills.
