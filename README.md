@@ -96,7 +96,7 @@ $$\[ \lambda = \frac{S}{d} = \frac{a(6 + 4\sqrt{2})}{a\sqrt{2}} = 3\sqrt{2} + 4 
 - **Optimization Problems**: Assists in solving problems related to distances in polyhedrons.
 - **Theoretical Physics**: Provides a unique ratio that can be used in theoretical physics involving tetrahedral structures.
 
-## 6. Supernatural Numbers
+## 6. Supernatural Numbers ($$\mathbb{S}$$)
 ### Definition
 Supernatural numbers are defined as positive integers $$n$$ such that the product of all their proper divisors equals $$n^2$$.
 
