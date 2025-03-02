@@ -155,25 +155,25 @@ So, 12 is a supernatural number.
 - **Cryptography**: The unique structure and rarity of supernatural numbers may have potential applications in cryptographic algorithms and key generation.
 - **Educational Tools**: These numbers can be used in mathematical puzzles and educational games to encourage logical thinking and problem-solving skills.
 
-## 7. Mysterious Primes (\(\mathbb{M}\))
+## 7. Mysterious Primes $$\(\mathbb{M}\)$$
 ### Definition
-Mysterious Primes, also known as Transcendental Primes, are defined as prime numbers that can be expressed in the form \(2p^2 - 1\), where \(p\) itself is a prime number.
+Mysterious Primes, also known as Transcendental Primes, are defined as prime numbers that can be expressed in the form $$2p^2 - 1$$, where $$p$$ itself is a prime number.
 
 ### Properties
-- **Prime Formula**: The defining formula for Mysterious Primes is \(2p^2 - 1\), where \(p\) is a prime number.
+- **Prime Formula**: The defining formula for Mysterious Primes is $$2p^2 - 1$$, where $$p$$ is a prime number.
 - **Unique Patterns**: A significant number of Mysterious Primes end in 7, and others exhibit specific ending digits such as 1, 37, 81, and 77.
 - **Rarity**: Mysterious Primes are rare and become less frequent as the value of \(p\) increases.
 
 ### Examples
 Here are a few examples of Mysterious Primes:
-- For \(p = 2\): \(2 \cdot 2^2 - 1 = 7 \implies \mathbb{M} = 7\)
-- For \(p = 3\): \(2 \cdot 3^2 - 1 = 17 \implies \mathbb{M} = 17\)
-- For \(p = 7\): \(2 \cdot 7^2 - 1 = 97 \implies \mathbb{M} = 97\)
-- For \(p = 11\): \(2 \cdot 11^2 - 1 = 241 \implies \mathbb{M} = 241\)
-- For \(p = 13\): \(2 \cdot 13^2 - 1 = 337 \implies \mathbb{M} = 337\)
+- For p = 2: $$2 \cdot 2^2 - 1 = 7 \implies \mathbb{M} = 7$$
+- For p = 3: $$2 \cdot 3^2 - 1 = 17 \implies \mathbb{M} = 17$$
+- For p = 7: $$2 \cdot 7^2 - 1 = 97 \implies \mathbb{M} = 97$$
+- For p = 11: $$2 \cdot 11^2 - 1 = 241 \implies \mathbb{M} = 241$$
+- For p = 13: $$2 \cdot 13^2 - 1 = 337 \implies \mathbb{M} = 337$$
 
 ### Python Implementation
-Here's a Python implementation to generate Mysterious Primes up to a given limit:
+Here is a Python implementation to generate Mysterious Primes up to a given limit:
 
 ```python
 def sieve_of_eratosthenes(limit):
@@ -209,7 +209,7 @@ print(f"Mysterious Primes up to {limit}: {mysterious_primes}")
 ### Properties
 - **Prime-Based Formation**: Each Mysterious Prime is derived from the quadratic formula involving another prime number.
 - **Digit Patterns**: The most common ending digits for Mysterious Primes are 7, 1, and sometimes more specific patterns like 37, 81, and 77.
-- **Rarity**: The rarity increases as \(p\) grows larger, making the search for Mysterious Primes a challenging and exciting endeavor.
+- **Rarity**: The rarity increases as p grows larger, making the search for Mysterious Primes a challenging and exciting endeavor.
 
 ### Potential Applications
 - **Number Theory Research**: Mysterious Primes provide a rich area for exploration in number theory, offering insights into prime distributions and quadratic forms.
@@ -217,4 +217,4 @@ print(f"Mysterious Primes up to {limit}: {mysterious_primes}")
 - **Cryptographic Algorithms**: The properties of Mysterious Primes may have potential applications in cryptographic methods and secure key generation.
 
 ### Conclusion
-Mysterious Primes ($$\(\mathbb{M}\)$$) add an element of mystery and fascination to the study of prime numbers. Their unique properties and rare occurrence make them an exciting subject for mathematical research and exploration.
+Mysterious Primes $$\(\mathbb{M}\)$$ add an element of mystery and fascination to the study of prime numbers. Their unique properties and rare occurrence make them an exciting subject for mathematical research and exploration.
