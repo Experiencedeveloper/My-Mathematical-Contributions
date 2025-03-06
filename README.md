@@ -162,7 +162,7 @@ Mysterious Primes, also known as Transcendental Primes, are defined as prime num
 ### Properties
 - **Prime Formula**: The defining formula for Mysterious Primes is $$2p^2 - 1$$, where $$p$$ is a prime number.
 - **Unique Patterns**: A significant number of Mysterious Primes end in 7, and others exhibit specific ending digits such as 1, 37, 81, and 77.
-- **Rarity**: Mysterious Primes are rare and become less frequent as the value of \(p\) increases.
+- **Rarity**: Mysterious Primes are rare and become less frequent as the value of p increases.
 
 ### Examples
 Here are a few examples of Mysterious Primes:
