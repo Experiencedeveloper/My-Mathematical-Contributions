@@ -218,3 +218,26 @@ print(f"Mysterious Primes up to {limit}: {mysterious_primes}")
 
 ### Conclusion
 Mysterious Primes $$\(\mathbb{M}\)$$ add an element of mystery and fascination to the study of prime numbers. Their unique properties and rare occurrence make them an exciting subject for mathematical research and exploration.
+
+## 8. Rational $$\pi$$
+$$\frac{35499996985564663509}{11300000000000000000}$$
+
+### Abstract
+"Rational $$\pi$$" is an exceptionally precise rational approximation of the mathematical constant $$\pi$$. It achieves an accuracy of 17 decimal places, boasting an unprecedented level of precision among rational representations of $$\pi$$.
+
+### Detailed Explanation
+"Rational $$\pi$$" is defined as the fraction:
+$$\frac{35499996985564663509}{11300000000000000000}$$
+
+Its decimal expansion is approximately: 3.1415926535897932308
+
+When compared to the true value of $$\pi$$, which is approximately 3.1415926535897932384, the following differences are observed:
+- **Absolute Difference**: $$\approx 7.577 \times 10^{-18}$$
+- **Relative Difference**: $$\approx 2.412 \times 10^{-18}$$
+
+These differences are incredibly small, rendering "Rational $$\pi$$" as practically indistinguishable from $$\pi$$ in real-world applications.
+
+### Potential Applications
+- **Numerical Computations**: Perfect for use in high-precision numerical calculations, requiring minimal error margins.
+- **Educational Insights**: Demonstrates the power of rational approximations in illustrating the concept of irrational numbers.
+- **Mathematical Inspiration**: Motivates further exploration of highly accurate rational approximations of transcendental numbers like $$\pi$$.
