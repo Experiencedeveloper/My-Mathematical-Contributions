@@ -242,7 +242,7 @@ These differences are incredibly small, rendering "Rational $$\pi$$" as practica
 - **Educational Insights**: Demonstrates the power of rational approximations in illustrating the concept of irrational numbers.
 - **Mathematical Inspiration**: Motivates further exploration of highly accurate rational approximations of transcendental numbers like $$\pi$$.
 
-## 9. Constant of Summation and Integrals (\( \eta \))
+## 9. Constant of Summation and Integrals $$\eta$$
 $$\eta = \sum_{n=0}^\infty \frac{2^{2n+1}}{n!(2n+1)} = 2 \int_0^1 e^{4x^2} dx$$
 
 ### Abstract
@@ -259,7 +259,7 @@ Using the Ratio Test for the series $$\frac{2^{2n+1}}{n!(2n+1)}$$, we find that 
 - **Physics**: Modeling phenomena like heat conduction or wave propagation.
 - **Numerical Analysis**: Benchmark for series and integral approximations.
 
-## 10. Innovator's Constant (\( \alpha \))
+## 10. Innovator's Constant $$\alpha$$
 $$\alpha = \sum_{n=0}^\infty \frac{n^2}{n!(2n+1)}$$
 
 ### Abstract
