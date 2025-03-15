@@ -266,7 +266,7 @@ $$\alpha = \sum_{n=0}^\infty \frac{n^2}{n!(2n+1)}$$
 The Innovator's Constant $$\alpha$$ represents a simpler yet deeply connected counterpart to $$\eta$$, defined by an infinite series involving quadratic growth. It complements $$\eta$$ as a related, yet distinct, mathematical structure.
 
 ### Detailed Explanation
-$$\eta$$ arises from summing quadratic terms divided by factorial and odd denominators. Its rapid convergence and smaller magnitude reflect its quadratic growth, contrasting $$\eta$$'s exponential nature. Together, they form a harmonious mathematical pair.
+$$\alpha$$ arises from summing quadratic terms divided by factorial and odd denominators. Its rapid convergence and smaller magnitude reflect its quadratic growth, contrasting $$\eta$$'s exponential nature. Together, they form a harmonious mathematical pair.
 
 ### Proof of Convergence
 The series $$\frac{n^2}{n!(2n+1)}$$ converges due to the factorial in the denominator, overpowering the quadratic growth in the numerator.
