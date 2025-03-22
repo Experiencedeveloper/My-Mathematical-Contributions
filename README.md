@@ -275,3 +275,56 @@ The series $$\frac{n^2}{n!(2n+1)}$$ converges due to the factorial in the denomi
 - **Combinatorics**: Studying constrained paths and arrangements.
 - **Physics**: Describing energy levels or parabolic motion.
 - **Mathematics**: Simplifying quadratic growth models.
+
+## 11. Trial\* Algorithm for Primality Testing
+
+### Abstract
+The **Trial\*** algorithm is a refined method for primality testing that optimizes traditional trial division. By skipping non-prime candidates early (multiples of 2 and 3) and focusing on divisors of the form $$6k \pm 1$$ up to $$\sqrt{n}$$, this algorithm offers both simplicity and high efficiency in determining whether a number is prime.
+
+### Detailed Explanation
+The **Trial\*** algorithm builds upon the fundamental properties of prime numbers:
+1. All primes greater than 3 are of the form $$6k \pm 1\$$.
+2. A composite number always has at least one factor less than or equal to its square root.
+
+By combining these insights, **Trial\*** skips unnecessary checks and focuses solely on divisor candidates that might divide $$n$$, drastically reducing computational effort compared to naive trial division.
+
+### Algorithm
+1. **Base Case Handling**:
+   - For $$n \leq 1$$, return False (not prime).
+   - For n = 2 or n = 3, return True (prime).
+2. **Eliminate Multiples**:
+   - If n is divisible by 2 or 3, return False (not prime).
+3. **Efficient Divisor Testing**:
+   - Starting at i = 5, test n % i == 0 or n % (i + 2) == 0.
+   - Increment i by 6 to test 6k - 1 and 6k + 1 up to $$\sqrt{n}$$.
+
+### Python Implementation
+```python
+import math
+
+def is_prime_trial_star(n):
+    if n <= 1:
+        return False
+    if n <= 3:
+        return True
+    if n % 2 == 0 or n % 3 == 0:
+        return False
+    limit = int(math.sqrt(n))
+    i = 5
+    while i <= limit:
+        if n % i == 0 or n % (i + 2) == 0:
+            return False
+        i += 6
+    return True
+```
+
+### Efficiency and Complexity
+1. **Time Complexity**:
+   - **Trial\*** reduces the divisor checks to approximately one-third of the candidates compared to naive trial division. The complexity is $$O(\sqrt{n})$$, with a significantly smaller constant factor.
+2. **Space Complexity**:
+   - Constant space, $$O(1)$$, as it uses only a few variables.
+
+### Potential Applications
+- **Cryptography**: Quick primality testing for small-scale cryptographic applications.
+- **Mathematical Research**: Useful for generating and studying prime numbers within a range.
+- **Teaching**: A simple yet elegant example of algorithmic optimization in number theory.
